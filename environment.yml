@@ -1,0 +1,11 @@
+name: geneva
+channels:
+  - defaults
+dependencies:
+  - h5py=2.8.0=py36h989c5e5_3
+  - nltk=3.4=py36_1
+  - numpy=1.16.2=py36h7e9f1db_0
+  - opencv=3.4.2=py36h6fd60c2_1
+  - python=3.6.8=h0371630_0
+  - pyyaml=5.1=py36h7b6447c_0
+  - tqdm=4.31.1=py36_1

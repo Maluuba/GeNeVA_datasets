@@ -1,0 +1,22 @@
+codraw_background: 'raw-data/CoDraw/background.png'
+codraw_images: 'raw-data/CoDraw/images/'
+codraw_objects_source: 'raw-data/CoDraw/10K_instance_occurence_58_names.txt'
+codraw_scenes: 'raw-data/CoDraw/output/'
+
+codraw_extracted_coordinates: 'data/CoDraw/extracted_coords.txt'
+codraw_hdf5_folder: 'data/CoDraw/'
+codraw_objects: 'data/CoDraw/objects.txt'
+codraw_png_to_object: 'data/CoDraw/png_to_object.txt'
+codraw_spell_check: 'data/CoDraw/bing_mappings.pkl'
+codraw_vocab: 'data/CoDraw/vocab.txt'
+
+iclevr_background: 'raw-data/i-CLEVR/background.png'
+iclevr_data_source: 'raw-data/i-CLEVR/'
+
+iclevr_hdf5_folder: 'data/iCLEVR/'
+iclevr_objects: 'data/iCLEVR/objects.txt'
+iclevr_vocab: 'data/iCLEVR/vocab.txt'
+
+glove_source: 'raw-data/GloVe/glove.840B.300d.txt'
+
+glove_output: 'data/CoDraw_iCLEVR/glove_codraw_iclevr.txt'
