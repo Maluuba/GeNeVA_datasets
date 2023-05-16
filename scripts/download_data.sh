@@ -34,13 +34,8 @@ then
     cd raw-data/CoDraw
     if [ ! -f dataset/CoDraw_1_0.json ]
     then
-        if [ ! -f gdown.pl ]
-        then
-            wget https://raw.githubusercontent.com/circulosmeos/gdown.pl/master/gdown.pl
-            chmod +x gdown.pl
-        fi
-        ./gdown.pl https://drive.google.com/file/d/0B-u9nH58139bTy1XRFdqaVEzUGs/view dataset/CoDraw_1_0.json
-        rm gdown.pl
+        mkdir --parents dataset
+        wget -O dataset/CoDraw_1_0.json https://github.com/facebookresearch/CoDraw/releases/download/v1.0/CoDraw_1_0.json
     fi
     python script/preprocess.py dataset/CoDraw_1_0.json
     rm dataset/CoDraw_1_0.json
